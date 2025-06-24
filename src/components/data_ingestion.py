@@ -64,8 +64,7 @@ class DataIngestion:
 if __name__ == "__main__":
     obj = DataIngestion()
     train_data, test_data = obj.initiate_data_ingestion()
-    print(f"[SUCCESS] Train data saved at: {train_data}")
-    print(f"[SUCCESS] Test data saved at: {test_data}")
+    
     logging.info("Ingestion method called.")
 
 
